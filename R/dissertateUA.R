@@ -46,9 +46,9 @@ dissertateUA <- function(..., highlight = NULL, citation_package = "none") {
 
   # Find template in dissertateUSU
   template_file <-
-    system.file("rmarkdown", "templates", "dissertateUSU",
+    system.file("rmarkdown", "templates", "dissertateUA",
                 file.path("resources", "template.tex"),
-                package = "dissertateUSU")
+                package = "dissertateUA")
 
   # Check template file exists
   .check_template(template_file)
