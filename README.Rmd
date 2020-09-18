@@ -30,10 +30,10 @@ Ultimately, this allows the student to focus on the writing and the results with
 
 ## Installation
 
-You can install `dissertateUSU` with:
+You can install `dissertateUA` with:
 
 ``` r
-remotes::install_github("tysonstanley/dissertateUSU")
+remotes::install_github("dudleymoore1/dissertateUA")
 ```
 
 ## LaTeX
