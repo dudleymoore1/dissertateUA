@@ -1,6 +1,6 @@
 #' dissertateUA format.
 #'
-#' Format for creating dissertations at Utah State University. It has been approved by the graduate school.
+#' Format for creating dissertations at The University of Alabama. It has been approved by the graduate school.
 #'
 #' @inheritParams rmarkdown::pdf_document
 #' @param ... Additional arguments to \code{rmarkdown::pdf_document}
@@ -42,7 +42,7 @@
 #' @import yaml
 #'
 #' @export
-dissertateUSU <- function(..., highlight = NULL, citation_package = "none") {
+dissertateUA <- function(..., highlight = NULL, citation_package = "none") {
 
   # Find template in dissertateUSU
   template_file <-
