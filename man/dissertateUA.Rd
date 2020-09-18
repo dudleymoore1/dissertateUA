@@ -4,7 +4,7 @@
 \alias{dissertateUA}
 \title{JASA Journal format.}
 \usage{
-dissertateUSU(..., highlight = NULL, citation_package = "none")
+dissertateUA(..., highlight = NULL, citation_package = "none")
 }
 \arguments{
 \item{...}{Additional arguments to \code{rmarkdown::pdf_document}}
